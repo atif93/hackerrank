@@ -41,12 +41,14 @@ int main() {
         }
         for(i=0; i<m; i++) {
             scanf("%d %d", &node1, &node2);
+            // since the indices are starting from 0
             node1--; 
             node2--;
             a[node1][node2] = 6;
             a[node2][node1] = 6;
         }
         scanf("%d", &s);
+        // since the indices are starting from 0
         s--;
         head = 0;
         tail = -1;
@@ -58,6 +60,8 @@ int main() {
         }
         distance[s] = 0;
         
+        // since all the edges are of equal length = 6
+        // we can just find the number of edges from the origin and multiply by 6
         while(!isQueueEmpty()) {
             s = popQueue();
             visited[s] = 1;
@@ -73,7 +77,7 @@ int main() {
         for(i=0; i<n; i++) {
             if(distance[i] != 0) {
                 if(distance[i] != -1) {
-                    printf("%d ", 6*distance[i]);
+                    printf("%d ", 6 * distance[i]);
                 } else {
                     printf("%d ", distance[i]);                 
                 }
