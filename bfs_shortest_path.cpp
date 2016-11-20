@@ -64,10 +64,11 @@ void Graph::print_result(int * distance) {
     for(int i=0; i<nVertices; i++) {
         if(distance[i] != 0) {
             if(distance[i] != -1) {
-                cout << 6 * distance[i]);
+                cout << 6 * distance[i];
             } else {
-                cout << distance[i]);                 
+                cout << distance[i];                 
             }
+            cout << " ";
         }
     }
     cout << endl;
