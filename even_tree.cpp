@@ -40,10 +40,10 @@ void Tree::DFS(int startingNode) {
 	
 	stack.push(startingNode);
 	stack2.push(startingNode); // stack2 is being maintained for reverse BFS of the tree and calculating the size of subtrees in the process
-	
+	visited[startingNode] = true;
+
 	while(!stack.empty()) {
 		int s = stack.top();
-		visited[s] = true;
 		stack.pop();
 
 		for(list<int>::reverse_iterator i = children[s].rbegin(); i != children[s].rend(); i++) {
