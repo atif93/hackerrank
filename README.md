@@ -3,7 +3,7 @@ Solutions to some hackerrank challenges.
 https://www.hackerrank.com/atif93
 
 
-Algorithms
+Algorithms <br>
 [bfsshortreach](https://www.hackerrank.com/challenges/bfsshortreach) <br>
 [even-tree](https://www.hackerrank.com/challenges/even-tree) <br>
 [birthday-cake-candles](https://www.hackerrank.com/challenges/birthday-cake-candles/) <br>
@@ -18,7 +18,7 @@ Algorithms
 [time-conversion](https://www.hackerrank.com/challenges/time-conversion/) <br>
 
 
-SQL
+SQL <br>
 [revising-the-select-query](https://www.hackerrank.com/challenges/revising-the-select-query/) <br>
 [revising-the-select-query-2](https://www.hackerrank.com/challenges/revising-the-select-query-2/) <br>
 [select-all-sql](https://www.hackerrank.com/challenges/select-all-sql/) <br>
